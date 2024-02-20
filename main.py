@@ -17,7 +17,7 @@ def sample():
 
 @app.get("/myfunction")
 def sample():
-    return {"Nithish":"Good boy",'Love':{"Sowjanya":"Good gitl",'swathi':'short girl','sonu':'my wife'}}
+    return {"Nithish":"Good boy",'mandatory':{"Sowjanya":"Good gitl",'swathi':'short girl','sonu':'my wife'}}
 
 @app.get("/function")
 def sample2():
