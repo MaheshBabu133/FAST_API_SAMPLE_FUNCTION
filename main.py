@@ -17,9 +17,9 @@ def sample():
 
 @app.get("/myfunction")
 def sample():
-    return {"Nithish":"Good boy",'mandatory':{"Sowjanya":"Good gitl",'swathi':'short girl','sonu':'my wife'}}
+    return {"Nithish":"Good boy",'mandatory':{"Sowjanya":"Good gitl",'swathi':'short girl','sonu':'dhost'}}
 
 @app.get("/function")
 def sample2():
-    return "Mahesh and sonu are husband and wife"
+    return "Mahesh and sonu are friends"
 
